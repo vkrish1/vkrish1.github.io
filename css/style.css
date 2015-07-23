@@ -43,6 +43,7 @@ section {
 }
 
 h1, header {
+	color: darkorchid;
 	margin-left: 20px;
 	max-width: 600px;
 	font-weight: bold;
