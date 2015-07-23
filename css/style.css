@@ -42,9 +42,12 @@ section {
 	margin: auto;
 }
 
-header {
+h1, header {
+	margin-left: 20px;
+	max-width: 600px;
 	font-weight: bold;
 	font-size: 38px;
+	display: block;
 }
 
 article {
