@@ -1,19 +1,10 @@
-* {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-*:focus {
-	outline: none;
-}
-
 html {
 	overflow: hidden;
 }
 
 
 html, body {
-	font-family: 'Lora', serif;
+	font-family: 'Lora';
 	padding: 0px;
 	margin: 0px;
 	height: 100%;
@@ -22,28 +13,24 @@ html, body {
 
 body {
 	padding-bottom: 40px;
-	padding-right: 10px;
 	overflow-y: scroll;
-	padding-left: 10px;
+	padding-left: 0px;
 	padding-top: 20px;
-	min-width: 800px;
 	width: 100%;
+	line-height: 50px;
 
-	-webkit-transition: all 600ms;
-	-moz-transition: all 600ms;
-	-ms-transition: all 600ms;
-	-o-transition: all 600ms;
-	transition: all 600ms;
 }
 
 section {
 	max-width: 600px;
-	height: 100%;
+	height: 30%;
 	margin: auto;
+
 }
 
 h1, header {
-	color: darkorchid;
+	max-width: 600px;
+	color: blueviolet;
 	margin-left: 20px;
 	max-width: 600px;
 	font-weight: bold;
@@ -53,18 +40,17 @@ h1, header {
 
 article {
 	padding-bottom: 50px;
-	line-height: 30px;
+	line-height: 80px;
 	margin-top: 22px;
 	min-height: 90%;
 	font-size: 22px;
 	display: block;
+	font-weight: bold;
+	font-size: 38px;
 }
 
-blockquote {
-	border-left: 4px solid deepskyblue;
-	margin-left: -19px;
-	padding-left: 15px;
-	margin-right: 0px;
+markdown {
+	color: dimgray;
 }
 
 .no-overflow {
@@ -77,9 +63,17 @@ blockquote {
 a {
 	text-decoration: none;
 	text-decoration-color: black;
-	
+	font-style: italic;
+	color:blueviolet;
 }
 
 a:hover {
-  text-shadow: 1px 1px blue;
+  text-shadow: 2px 2px blue;
+}
+a:visited {
+	color: blueviolet;
+}
+
+girl {
+	align-content: center;
 }
