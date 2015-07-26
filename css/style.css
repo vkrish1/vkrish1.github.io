@@ -1,64 +1,31 @@
-html {
-	overflow: hidden;
-}
-
-
 html, body {
 	font-family: 'Lora';
-	padding: 0px;
-	margin: 0px;
-	height: 100%;
 	background: #fdfdfd;
 }
 
 body {
-	padding-bottom: 40px;
-	overflow-y: scroll;
-	padding-left: 0px;
-	padding-top: 20px;
-	width: 100%;
-	line-height: 50px;
-
-}
-
-section {
+	line-height: 60px;
+	font-weight: bold;
+	font-size: 38px;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 600px;
-	height: 30%;
-	margin: auto;
-
+	
 }
+
 
 h1, header {
-	max-width: 600px;
 	color: blueviolet;
-	margin-left: 20px;
 	max-width: 600px;
 	font-weight: bold;
 	font-size: 38px;
-	display: block;
 }
 
-article {
-	padding-bottom: 50px;
-	line-height: 80px;
-	margin-top: 22px;
-	min-height: 90%;
-	font-size: 22px;
-	display: block;
-	font-weight: bold;
-	font-size: 38px;
-}
 
 markdown {
 	color: dimgray;
 }
 
-.no-overflow {
-	overflow: hidden;
-	display: block;
-	height: 100%;
-	width: 100%;
-}
 
 a {
 	text-decoration: none;
@@ -72,8 +39,4 @@ a:hover {
 }
 a:visited {
 	color: blueviolet;
-}
-
-girl {
-	align-content: center;
 }
